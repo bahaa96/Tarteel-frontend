@@ -176,6 +176,24 @@ export const Container = styled.div`
     margin-top: 1em;
     margin-bottom: 3em;
     position: relative;
+    
+    .siri-wave {
+      position: absolute;
+      top: -75px;
+      left: 50%;
+      bottom: 0;
+      right: 0;
+      width: 500px;
+      transform: translateX(-50%);
+      
+      canvas {
+        mask-image: linear-gradient(90deg,transparent 3%,#000,transparent 97%);
+        position: absolute;
+        width: 100%!important;
+        max-width: 1360px;
+        height: 250px !important;
+      }
+    }
   }
   
   .starting-wave {
@@ -275,23 +293,7 @@ export const Container = styled.div`
     }
   }
 
-  .siri-wave {
-    position: absolute;
-    top: -75px;
-    left: 50%;
-    bottom: 0;
-    right: 0;
-    width: 500px;
-    transform: translateX(-50%);
-    
-    canvas {
-      mask-image: linear-gradient(90deg,transparent 3%,#000,transparent 97%);
-      position: absolute;
-      width: 100%!important;
-      max-width: 1360px;
-      height: 250px !important;
-    }
-  }
+  
 
 //audio {
 //  display: none;
