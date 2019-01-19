@@ -7,7 +7,7 @@
 ## Getting started
 
 ```bash
-git clone https://github.com/ctrlplusb/react-universally my-project
+git clone https://github.com/bahaa96/Tarteel-frontend.git tarteel
 cd tarteel-frontend
 yarn install
 yarn dev
